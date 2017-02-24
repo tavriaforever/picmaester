@@ -1,4 +1,4 @@
-{
+let db = {
   users: {
     '<id.user>': {
       settings: {
@@ -20,7 +20,7 @@
     '<id.user>': {
       today: [
         { collection: 'coding-js', id: '<id.picture>' },
-      ]
+      ],
       items: [
         { collection: 'english', id: '<id.picture>' },
         { collection: 'english', id: '<id.picture>' }
@@ -33,7 +33,7 @@
       english: {
         '<id.picture>': {
           filename: '...', // путь до файла
-          title: '...' // заголовок имеет ограничение
+          title: '...', // заголовок имеет ограничение
           text: '...' // описание имеет ограничение в 140 символов
         }
       }
@@ -66,7 +66,7 @@
         type: 'like'
       }
     }
-  ]
+  ],
 
   collections: {
     app: [
@@ -79,5 +79,5 @@
 
       ]
     }
-  }
+  },
 }
