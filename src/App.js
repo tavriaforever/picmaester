@@ -1,24 +1,9 @@
 import React, { Component } from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import AppRouter from './AppRouter.js';
+import Root from './components/Root.js';
 
 export default class App extends Component {
     render() {
-        return (
-            <View style={styles.container}>
-                <Text>This is picmaester!</Text>
-            </View>
-        );
+        return (<AppRouter />);
     }
 };
-
-var styles = StyleSheet.create({
-    container: {
-        flex: 1,
-        justifyContent: 'center',
-        alignItems: 'center',
-    },
-
-    text: {
-        fontSize: 20
-    }
-});
